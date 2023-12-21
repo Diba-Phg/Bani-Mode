@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.457" height="21.457" viewBox="0 0 21.457 21.457">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#1ac977;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <path id="message-square" d="M22.957 16.3a2.217 2.217 0 0 1-2.217 2.217H7.435L3 22.957V5.217A2.217 2.217 0 0 1 5.217 3h15.522a2.217 2.217 0 0 1 2.217 2.217z" class="cls-1" transform="translate(-2.25 -2.25)"/>
+</svg>

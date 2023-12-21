@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      html::-webkit-scrollbar {
+        width: 0.6vw;
+      }
+      html::-webkit-scrollbar-thumb {
+        background-color: #c3c3ce;
+        border-radius: 10px;
+      }
+      html::-webkit-scrollbar-track {
+        background-color: #f1f2f4;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مرکز خرید آنلاین بانی مد</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./Media/download.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./custom.css" />
+  </head>
+  <body>
+    <!--PROJECT START-->
+    <!--mobile nav-->
+    <div
+      class="items-center fixed lg:hidden bottom-0 flex bg-white w-full px-2"
+    >
+      <div class="flex flex-row-reverse justify-evenly w-full">
+        <a href="#"
+          ><img class="w-[45px]" src="./Media/mobile home.jpg" alt=""
+        /></a>
+        <a href="mobile2.html"
+          ><img class="w-[45px]" src="./Media/mobile category.jpg" alt=""
+        /></a>
+        <a href="#"
+          ><img class="w-[45px]" src="./Media/mobile shop.jpg" alt=""
+        /></a>
+        <a href="#"
+          ><img class="w-[45px]" src="./Media/mobile profile.jpg" alt=""
+        /></a>
+      </div>
+    </div>
+    <!--SUPPORT DESKTOP-->
+    <div
+      class="fixed lg:block hidden bg-[#1AC977] w-[55px] h-[55px] rounded-[10px] left-[30px] bottom-[55px] z-999"
+    >
+      <img src="./Media/support.png" alt="" class="rounded-[10px]" />
+    </div>
+    <!--TOP BANNER-->
+    <div class="topBanner w-full h-[60px] hidden lg:block">
+      <img src="./Media/bannertop.gif" class="w-full h-full md:object-cover" />
+    </div>
+
+    <body class="bg-white">
+      <nav
+        class="relative px-2 lg:px-12 py-4 flex justify-between items-center bg-white"
+      >
+        <a class="text-3xl font-bold leading-none" href="#">
+          <img
+            src="./Media/mainlogo.svg"
+            class="w-[190px] h-[35px] md:w-[190px] md:h-[40px] md:px-[10px] md:mx-[10px]"
+          />
+        </a>
+
+        <div class="flex flex-row">
+          <input
+            type="text"
+            class="serachbar w-[530px] lg:w-[630px] h-[50px] bg-[#F5F5F5] rounded-[25px] text-right px-[20px] lg:flex items-center justify-center text-[12px] xl:text-[16px] text-[#7A7A7A] hidden font-IranSans"
+            placeholder="جستجو در میان بیش از 700 برند معتبر"
+          />
+        </div>
+        <div class="lg:hidden">
+          <button
+            class="navbar-burger flex items-center text-green-600 p-3 ml-[100px]"
+          >
+            <svg
+              class="block h-4 w-4 fill-current"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Mobile menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="flex-row-reverse">
+          <div
+            class="flex lg:hidden w-[30px] h-[27px] mt-3 justify-center items-center"
+          >
+            <img class="w-[30px] h-[27px]" src="./Media/cart.PNG" />
+          </div>
+          <div
+            class="w-[140px] h-[50px] cursor-pointer bg-[#00BF6F] rounded-[25px] lg:flex items-center justify-center text-white hidden mx-[10px]"
+          >
+            <p class="font-IranSans">ورود / ثبت نام</p>
+          </div>
+        </div>
+      </nav>
+      <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav
+          class="fixed top-0 flex flex-col w-full bg-white border-r h-300px py-1"
+        >
+          <div class="flex items-center mb-2 mt-7">
+            <a class="mr-auto text-3xl font-bold leading-none" href="#">
+              <img
+                src="./Media/mainlogo.svg"
+                alt=""
+                class="w-[200px] h-[25px]"
+              />
+            </a>
+            <button class="navbar-close">
+              <svg
+                class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              ></svg>
+            </button>
+          </div>
+          <div>
+            <ul>
+              <li class="mb-1 flex justify-end items-center">
+                <a
+                  class="flex justify-end items-center p-4 text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded text-right font-IranSans"
+                  href="#"
+                >
+                  جستجو در میان هزاران کالا
+                  <span class="w-[20px] h-[20px] inline"
+                    ><img
+                      src="./Media/icon star.svg"
+                      alt=""
+                      class="w-[20px] h-[20px]"
+                  /></span>
+                </a>
+              </li>
+              <hr />
+              <li class="mb-1 flex justify-end items-center">
+                <a
+                  class="p-4 text-[12px] text-gray-400 hover:bg-blue-50 font-IranSans hover:text-blue-600 rounded text-right flex justify-end items-center"
+                  href="#"
+                  >:جستجو های پرطرفدار</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="bg-white w-full h-[90px] flex justify-end items-center gap-[10px] flex-wrap pr-3"
+          >
+            <button
+              class="bg-[#F6F6F6] text-slate-800 rounded-[100px] p-[8px_20px] border-[1px] border-[#ECECED] text-[12px] font-IranSans"
+            >
+              جوتی جینز
+            </button>
+            <button
+              class="bg-[#F6F6F6] text-slate-800 rounded-[100px] p-[8px_20px] border-[1px] border-[#ECECED] text-[12px] font-IranSans"
+            >
+              جین وست
+            </button>
+            <button
+              class="bg-[#F6F6F6] text-slate-800 rounded-[100px] p-[8px_20px] border-[1px] border-[#ECECED] text-[12px] font-IranSans"
+            >
+              شلوار
+            </button>
+            <button
+              class="bg-[#F6F6F6] text-slate-800 rounded-[100px] p-[8px_20px] border-[1px] border-[#ECECED] text-[12px] font-IranSans"
+            >
+              پیراهن
+            </button>
+          </div>
+          <hr />
+          <div
+            class="bg-white w-full h-[40px] flex justify-center items-center"
+          >
+            <p class="text-orange-600 font-IranSans text-[13px]">╳ بستن</p>
+          </div>
+        </nav>
+      </div>
+      <div class="hidden lg:flex w-full h-[40px] justify-end">
+        <div
+          class="w-9/12 justify-around font-IranSans items-center flex-row-reverse text-right flex"
+        >
+          <a href="#" class="text-[20px]">دسته بندی کالاها</a>
+          <a href="fashion.html" class="text-[12px] text-slate-500">مد و فشن</a>
+          <a href="#" class="text-[12px] text-slate-500">خانه مد</a>
+          <a href="#" class="text-[12px] text-slate-500">زیبایی و سلامت</a>
+          <a href="#" class="text-[12px] text-slate-500">ساعت</a>
+          <a href="#" class="text-[12px] text-slate-500">کی تویز</a>
+          <a href="kakasport2.html" class="text-[12px] text-slate-500"
+            >کاکااسپرت</a
+          >
+          <a href="#" class="text-[12px] text-slate-500">عطر و ادکلن</a>
+          <a href="#" class="text-[12px] text-slate-500">برندها</a>
+          <a href="#" class="text-[12px] text-slate-500">کارت هدیه</a>
+          <a href="#" class="text-[12px] text-slate-500">فروش ویژه</a>
+          <a href="#" class="text-[12px] text-slate-500">بانی مگ</a>
+        </div>
+      </div>
+      <hr />
+      <!--SLIDERS 1-->
+      <div
+        class="flex flex-row-reverse container w-12/12 justify-between px-14 gap-8"
+      >
+        <div class="takhfif rounded-[15px] w-full lg:w-auto lg:block hidden">
+          <img
+            class="rounded-[15px] hidden lg:block"
+            src="./Media/takhfifgifgif.gif"
+          />
+        </div>
+        <div class="rounded-[15px] hidden lg:block">
+          <img class="rounded-[15px]" src="./Media/1700550856.webp" />
+        </div>
+      </div>
+      <div class="w-100">
+        <img class="block lg:hidden w-100" src="./Media/phoneslide1.webp" />
+      </div>
+      <div
+        class="flex-row container w-12/12 justify-between px-14 gap-8 mt-12 hidden lg:flex"
+      >
+        <div class="rounded-[15px]">
+          <img class="rounded-[15px]" src="./Media/jeanswest.webp" />
+        </div>
+        <div class="takhfif rounded-[15px]">
+          <img class="rounded-[15px]" src="./Media/banijome.webp" />
+        </div>
+      </div>
+      <!--CATEGORIES-->
+      <div
+        class="hidden lg:flex flex-row-reverse w-11/12 justify-center items-center container mt-8"
+      >
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img src="./Media/kapshen.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img src="./Media/boot.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img src="./Media/poliver.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img src="./Media/watch.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img src="./Media/perfume.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img src="./Media/giftcard.webp" />
+        </a>
+      </div>
+      <div
+        class="flex w-11/12 container justify-between lg:justify-normal my-5"
+      >
+        <div class="w-4/12 flex items-center justify-between">
+          <div
+            class="flex w-[200px] flex-row justify-center items-center md:w-auto"
+          >
+            <div
+              class="lg:w-[50px] lg:h-[50px] w-[28px] h-[28px] bg-white border-[1px] lg:border-none border-orange-600 lg:bg-orange-600 lg:rounded-[15px] flex justify-center items-center text-orange-600 lg:text-white text-[12px] lg:text-[25px]"
+            >
+              0
+            </div>
+            <div class="text-[10px] lg:text-[40px] text-orange-600 mx-2">:</div>
+            <div
+              class="lg:w-[50px] lg:h-[50px] w-[28px] h-[28px] bg-white border-[1px] lg:border-none border-orange-600 lg:bg-orange-600 lg:rounded-[15px] flex justify-center items-center text-orange-600 lg:text-white text-[12px] lg:text-[25px]"
+            >
+              22
+            </div>
+            <div class="text-[10px] lg:text-[40px] text-orange-600 mx-2">:</div>
+            <div
+              class="lg:w-[50px] lg:h-[50px] w-[28px] h-[28px] bg-white border-[1px] lg:border-none border-orange-600 lg:bg-orange-600 lg:rounded-[15px] flex justify-center items-center text-orange-600 lg:text-white text-[12px] lg:text-[25px]"
+            >
+              30
+            </div>
+          </div>
+          <div class="hidden lg:block">
+            <p class="text-[#27AF6E] text-[17px] xl:text-[20px] font-IranSans">
+              زمان باقی مانده تا پایان سفارش
+            </p>
+          </div>
+        </div>
+        <div class="hidden lg:w-5/12 lg:block"></div>
+        <div
+          class="w-[129px] h-[23px] md:w-[300px] md:h-[56px] flex justify-center items-center"
+        >
+          <img
+            src="./Media/dayamazing.png"
+            alt=""
+            class="w-[129px] h-[23px] md:w-[300px] md:h-[56px]"
+          />
+        </div>
+      </div>
+
+      <div
+        class="slider1 px-2 h-[300px] w-full flex flex-row justify-around gap-2 lg:hidden"
+      >
+        <div class="lg:hidden flex flex-row">
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product1.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product3.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">کوله پشت طرح مدرن</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,299,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">584,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="slider1 px-2 h-[300px] gap-6 flex-row justify-around hidden lg:flex"
+      >
+        <div class="lg:flex hidden flex-row justify-between gap-6">
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product1.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product5.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">عطر زنانه</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product6.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">ست تخت مسافرتی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product7.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">هودی مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product2.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product4.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product3.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">کوله پشت طرح مدرن</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,299,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">584,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="seemore container flex items-center justify-center w-full h-[50px] my-10"
+      >
+        <div
+          class="bg-[#FEEFE8] lg:bg-white lg:border-2 lg:rounded-[35px] hover:border-green-600 border-slate-300 transition-all w-[120px] h-[43px] lg:w-[300px] lg:h-[50px] flex items-center justify-center text-orange-600 lg:text-green-600 text-[12px] lg:text-[18px] font-IranSans"
+        >
+          مشاهده بیشتر
+        </div>
+      </div>
+
+      <div class="lg:hidden w-full h-auto">
+        <img src="./Media/phone.png" alt="" />
+      </div>
+
+      <div
+        class="lg:hidden flex flex-row-reverse justify-between container px-1 mt-5"
+      >
+        <p class="font-IranSans text-[16px]">دسته‌بندی‌ها</p>
+        <a href="#" class="font-IranSans text-orange-500 flex flex-row">
+          <span><img src="./Media/arrow-left-orange.svg" alt="" /></span>
+          مشاهده همه
+        </a>
+      </div>
+      <div
+        class="lg:hidden flex flex-row-reverse font-IranSans gap-2 container px-4 mt-4"
+      >
+        <div class="bg-[#F5F5F5] flex flex-col text-center p-4 rounded-[10px]">
+          <img src="./Media/daste1.png" alt="" />
+          <p class="text-[10px]">کاپشن و پالتو</p>
+        </div>
+        <div class="bg-[#F5F5F5] flex flex-col text-center p-4 rounded-[10px]">
+          <img src="./Media/daste2.webp" alt="" />
+          <p class="text-[10px]">پوشاک بچه گانه</p>
+        </div>
+        <div class="bg-[#F5F5F5] flex flex-col text-center p-4 rounded-[10px]">
+          <img src="./Media/daste3.webp" alt="" />
+          <p class="text-[10px]">کالای خواب و استراحت</p>
+        </div>
+      </div>
+      <div class="lg:hidden block mt-8 mb-9 rounded-[25px] w-full px-2">
+        <img src="./Media/pooshak banner.webp" alt="" class="rounded-[15px]" />
+      </div>
+      <!--CATEGORIES-->
+      <div
+        class="hidden lg:flex flex-row-reverse w-11/12 justify-center items-center container mt-8"
+      >
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img class="rounded-[10px]" src="./Media/sleep.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img class="rounded-[10px]" src="./Media/kids.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img class="rounded-[10px]" src="./Media/watching.webp" />
+        </a>
+        <a href="#" class="scale-90 hover:scale-100 transition-all">
+          <img class="rounded-[10px]" src="./Media/omg.webp" />
+        </a>
+      </div>
+      <div class="justify-center items-center mt-14 mb-4 hidden lg:flex">
+        <p class="text-black text-[26px] font-IranSans">پرفروش ترین محصولات</p>
+      </div>
+
+      <!---->
+      <div
+        class="lg:hidden flex flex-row-reverse justify-between container px-1 mt-5"
+      >
+        <p class="font-IranSans text-[16px] mb-5">پرفروش‌ترین‌ها</p>
+        <a href="#" class="font-IranSans text-orange-500 flex flex-row">
+          <span><img src="./Media/arrow-left-orange.svg" alt="" /></span>
+          مشاهده همه
+        </a>
+      </div>
+      <!---->
+      <div
+        class="slider1 px-2 h-[300px] w-full flex flex-row justify-around gap-2 lg:hidden"
+      >
+        <div class="lg:hidden flex flex-row">
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product1.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product3.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">کوله پشت طرح مدرن</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,299,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">584,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="slider1 px-2 h-[300px] gap-6 flex-row justify-around hidden lg:flex"
+      >
+        <div class="lg:flex hidden flex-row justify-between gap-6">
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product1.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product5.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">عطر زنانه</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product6.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">ست تخت مسافرتی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product7.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">هودی مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product2.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product4.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">پیراهن مردانه آبی</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,499,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">689,000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="productslider border-[1px] border-slate-200 w-6/12 bg-white p-2"
+          >
+            <div>
+              <img
+                src="./Media/product3.webp"
+                alt=""
+                class="w-[154px] h-[187px] bg-[#F5F4F6] object-cover"
+              />
+            </div>
+            <div class="font-IranSans text-right">
+              <p class="text-[12px] mt-3">کوله پشت طرح مدرن</p>
+              <p class="text-[10px] mt-1 text-slate-600">
+                لورم ایپسوم لورم ایپسوم
+              </p>
+              <div class="flex flex-row-reverse justify-between mt-4">
+                <p class="line-through text-slate-600 text-[10px]">1,299,000</p>
+                <p class="text-[#27AF6E] text-[12px] font-semibold">584,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:hidden flex flex-row-reverse justify-between container px-1 mt-7"
+      >
+        <p class="font-IranSans text-[16px]">برند های برگزیده</p>
+        <a href="#" class="font-IranSans text-orange-500 flex flex-row">
+          <span><img src="./Media/arrow-left-orange.svg" alt="" /></span>
+          مشاهده همه
+        </a>
+      </div>
+      <div class="flex flex-row justify-around mt-10 lg:hidden">
+        <img
+          src="./Media/brand-136x69.webp"
+          alt=""
+          class="rounded-[10px] w-1/12"
+        />
+        <img
+          src="./Media/965-brand-aaa136x69.jpg"
+          alt=""
+          class="rounded-[10px] w-1/12"
+        />
+        <img
+          src="./Media/1-brand-1364x69.webp"
+          alt=""
+          class="rounded-[10px] w-1/12"
+        />
+        <img
+          src="./Media/2-brand-1736x69.webp"
+          alt=""
+          class="rounded-[10px] w-1/12"
+        />
+        <img
+          src="./Media/614-brand-1366x69.webp"
+          alt=""
+          class="rounded-[10px] w-1/12"
+        />
+      </div>
+      <div
+        class="lg:hidden flex flex-row-reverse justify-between container px-1 mt-12 mb-5"
+      >
+        <p class="font-IranSans text-[16px]">جدیدترینِ ‌بانی‌ مگ</p>
+        <a href="#" class="font-IranSans text-orange-500 flex flex-row">
+          <span><img src="./Media/arrow-left-orange.svg" alt="" /></span>
+          مشاهده همه
+        </a>
+      </div>
+      <div
+        class="flex lg:hidden w-12/12 bg-[#F6F6F6] flex-row-reverse justify-evenly gap-3 font-IranSans text-end px-4"
+      >
+        <div
+          class="flex flex-col border-[1px] border-slate-300 bg-white rounded"
+        >
+          <img src="./Media/yalda.webp" alt="" />
+          <p class="text-[10px]">تاریخچه شب یلدای و آداب و رسوم شب چله ایران</p>
+        </div>
+        <div
+          class="flex flex-col border-[1px] border-slate-300 bg-white rounded"
+        >
+          <img src="./Media/bag george.webp" alt="" />
+          <p class="text-[10px]">کیف های جورجینا گران ترند یا محتویات داخشان</p>
+        </div>
+      </div>
+      <div class="block lg:hidden mt-12 container px-3 font-IranSans">
+        <div class="bg-white w-full">
+          <div class="flex justify-between h-[50px] text-[13px] flex-row">
+            <p class="text-slate-500 text-[12px]">هفت روز هفته، 24 ساعته</p>
+            <p>میزبان صدای گرمتان هستیم</p>
+          </div>
+          <div
+            class="flex justify-end text-right items-center h-[50px] text-[13px] flex-row"
+          >
+            <p class="mr-3">021-49215</p>
+            <span><img src="./Media/call.svg" alt="" /></span>
+          </div>
+          <hr />
+          <div class="flex justify-end h-[50px] items-center text-[13px]">
+            <p class="mr-3">10001654</p>
+            <span><img src="./Media/message-larg.svg" alt="" /></span>
+          </div>
+          <hr />
+          <div
+            class="flex text-right justify-end items-center h-[50px] text-[13px]"
+          >
+            <p class="mr-3">customer@banimode.com</p>
+            <span><img src="./Media/email.svg" alt="" /></span>
+          </div>
+          <hr />
+        </div>
+        <div class="flex flex-row px-2 justify-between my-4 gap-2">
+          <div class="flex flex-col justify-center items-center">
+            <img src="./Media/bazgasht.png" alt="" class="w-[36px] h-[35px]" />
+            <p class="text-[7px]">ضمانت بازگشت کالا</p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <img src="./Media/esalat.jpg" alt="" class="w-[36px] h-[35px]" />
+            <p class="text-[7px]">ضمانت اصالت</p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <img src="./Media/khadamat.jpg" alt="" class="w-[36px] h-[35px]" />
+            <p class="text-[7px]">خدمات پس از فروش</p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <img src="./Media/ersal.jpg" alt="" class="w-[36px] h-[35px]" />
+            <p class="text-[7px]">تحویل سریع و آسان</p>
+          </div>
+        </div>
+        <hr />
+        <p class="text-[13px] p-2 text-right">درباره بانی‌مد</p>
+        <p class="text-[9px] text-slate-500 text-right">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد
+        </p>
+        <div class="flex flex-row justify-center items-center">
+          <span class="relative"
+            ><img
+              src="./Media/chevron-down.svg"
+              alt=""
+              class="relative top-[5px]"
+          /></span>
+          <p class="text-[11px] text-[#27AF6E] text-center mt-3">نمایش بیشتر</p>
+        </div>
+      </div>
+      <div
+        class="seemore container flex items-center justify-center w-full h-[50px] my-10"
+      >
+        <div
+          class="bg-[#FEEFE8] lg:bg-white lg:border-2 lg:rounded-[35px] hover:border-green-600 border-slate-300 transition-all w-[120px] h-[43px] lg:w-[300px] lg:h-[50px] flex items-center justify-center text-orange-600 lg:text-green-600 text-[12px] lg:text-[18px] font-IranSans"
+        >
+          مشاهده بیشتر
+        </div>
+      </div>
+      <div
+        class="container mb-14 justify-around flex-row-reverse hidden lg:flex"
+      >
+        <div class="w-2/12 flex flex-col items-center serviceitem">
+          <img
+            src="./Media/ringbg.png"
+            alt=""
+            class="opacity-10 hover:opacity-60 transition-all absolute ringbg w-2/12 h-[250px]"
+          />
+          <img
+            src="./Media/khadamat.jpg"
+            alt=""
+            class="w-[100px] h-[98px] text-center mb-3"
+          />
+          <p class="font-IranSans text-[20px] mb-3 text-[#666666]">
+            خدمات پس از خرید
+          </p>
+          <p
+            class="font-IranSans text-[11px] xl:text-[13px] text-center text-[#666666]"
+          >
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه
+          </p>
+        </div>
+        <div class="w-2/12 flex flex-col items-center serviceitem">
+          <img
+            src="./Media/ringbg.png"
+            alt=""
+            class="opacity-10 hover:opacity-60 transition-all absolute ringbg w-2/12 h-[250px]"
+          />
+          <img
+            src="./Media/bazgasht.png"
+            alt=""
+            class="w-[100px] h-[98px] text-center mb-3"
+          />
+          <p class="font-IranSans text-[20px] mb-3 text-[#666666]">
+            ضمانت بازگشت کالا
+          </p>
+          <p
+            class="font-IranSans text-[11px] xl:text-[13px] text-center text-[#666666]"
+          >
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه
+          </p>
+        </div>
+        <div class="w-2/12 flex flex-col items-center serviceitem">
+          <img
+            src="./Media/ringbg.png"
+            alt=""
+            class="opacity-10 hover:opacity-60 transition-all absolute ringbg w-2/12 h-[250px]"
+          />
+          <img
+            src="./Media/esalat.jpg"
+            alt=""
+            class="w-[100px] h-[98px] text-center mb-3"
+          />
+          <p class="font-IranSans text-[20px] mb-3 text-[#666666]">
+            ضمانت اصالت
+          </p>
+          <p
+            class="font-IranSans text-[11px] xl:text-[13px] text-center text-[#666666]"
+          >
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه
+          </p>
+        </div>
+        <div class="w-2/12 flex flex-col items-center serviceitem mb-16">
+          <img
+            src="./Media/ringbg.png"
+            alt=""
+            class="opacity-10 hover:opacity-60 transition-all absolute ringbg w-2/12 h-[250px]"
+          />
+          <img
+            src="./Media/ersal.jpg"
+            alt=""
+            class="w-[100px] h-[98px] text-center mb-3"
+          />
+          <p class="font-IranSans text-[20px] mb-3 text-[#666666]">
+            ارسال سریع و رایگان
+          </p>
+          <p
+            class="font-IranSans text-[11px] xl:text-[13px] text-center text-[#666666]"
+          >
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه
+          </p>
+        </div>
+      </div>
+      <div class="w-12/12 bg-[#F9F9F9] h-[360px] py-12 hidden lg:block">
+        <div class="flex justify-center items-center">
+          <p class="font-IranSans text-[26px]">برترین برند ها در بانی‌مد</p>
+        </div>
+        <div class="flex flex-row justify-around mt-10">
+          <img
+            src="./Media/brand-136x69.webp"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/965-brand-aaa136x69.jpg"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/1-brand-1364x69.webp"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/2-brand-1736x69.webp"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/614-brand-1366x69.webp"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/823-brand-1346x69.webp"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/867-brand-136x569.webp"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+          <img
+            src="./Media/239-brand-1361x69.jpg"
+            alt=""
+            class="rounded-[10px] w-1/12"
+          />
+        </div>
+        <div
+          class="seemore container flex items-center justify-center w-12/12 h-[50px] my-10"
+        >
+          <div
+            class="bg-[#FEEFE8] lg:bg-[#F9F9F9] lg:border-2 lg:rounded-[35px] hover:border-green-600 border-slate-300 transition-all w-[120px] h-[43px] lg:w-[300px] lg:h-[50px] flex items-center justify-center text-orange-600 lg:text-green-600 text-[12px] lg:text-[18px] font-IranSans"
+          >
+            مشاهده همه برندها
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center mt-14 bg-white">
+          <p class="font-IranSans text-[26px] mt-8">جدیدترینِ بانی‌مگ</p>
+        </div>
+        <div class="w-12/12 container bg-white flex justify-evenly gap-2">
+          <div>
+            <img src="./Media/yalda.webp" alt="" class="rounded" />
+            <p
+              class="font-IranSans text-[15px] text-end mt-7 mynews transition-all"
+            >
+              تاریخچه شب یلدای و آداب و رسوم شب چله ایران
+            </p>
+          </div>
+          <div>
+            <img src="./Media/bag george.webp" alt="" class="rounded" />
+            <p
+              class="font-IranSans text-[15px] text-end mt-7 mynews transition-all"
+            >
+              کیف های جورجینا گران ترند یا محتویات داخشان
+            </p>
+          </div>
+          <div>
+            <img src="./Media/fall glass.webp" alt="" class="rounded" />
+            <p
+              class="font-IranSans text-[15px] text-end mt-7 mynews transition-all"
+            >
+              چرا در پاییز و زمستان باید بیشتر از عینک آفتابی
+            </p>
+          </div>
+          <div>
+            <img src="./Media/mom.webp" alt="" class="rounded" />
+            <p
+              class="font-IranSans text-[15px] text-end mt-7 mynews transition-all"
+            >
+              روز مادر -روز زن- سال 1402 چه روزی است؟
+            </p>
+          </div>
+        </div>
+        <div
+          class="seemore container flex items-center justify-center w-full h-[50px] my-10"
+        >
+          <div
+            class="bg-[#FEEFE8] lg:bg-white lg:border-2 lg:rounded-[35px] hover:border-green-600 border-slate-300 transition-all w-[120px] h-[43px] lg:w-[300px] lg:h-[50px] flex items-center justify-center text-orange-600 lg:text-green-600 text-[12px] lg:text-[18px] font-IranSans"
+          >
+            مشاهده بیشتر
+          </div>
+        </div>
+        <div
+          class="w-11/12 bg-[#F8F8F8] h-[250px] container overflow-hidden relative"
+        >
+          <img
+            src="./Media/newsletter.svg"
+            alt=""
+            class="overflow-hidden bg-none z-998"
+          />
+        </div>
+        <div class="relative bottom-[200px]">
+          <div class="flex justify-center">
+            <p class="font-IranSans mt-7 text-[26px] text-black">
+              ثبت نام در خبرنامه بانی‌مد
+            </p>
+          </div>
+          <div class="flex justify-center">
+            <p class="font-IranSans text-[16px] mt-2">
+              اولین نفر باشید که از جدیدترین محصولات، جشنواره ها و فروش‌های ویژه
+              ما مطلع می شوید
+            </p>
+          </div>
+          <div class="relative top-[70px] flex justify-center">
+            <div
+              class="bg-white rounded-[100px] w-6/12 h-[70px] p-4 gap-2 flex flex-row-reverse"
+            >
+              <div
+                class="bg-[#EFEFEF] rounded-[40px] w-9/12 h-[55px] flex justify-end px-3 text-[17px] items-center"
+              >
+                <p class="font-IranSans">آدرس ایمیل شما</p>
+              </div>
+              <div
+                class="bg-[#00BF6F] text-white rounded-[40px] w-3/12 h-[55px] flex justify-between px-3 text-[17px] items-center"
+              >
+                <p class="text-[26px]">←</p>
+                <p class="font-IranSans">ارسال</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="w-full h-1 bg-[#F9F9F9] mb-12" />
+        <div
+          class="w-12/12 bg-white container flex flex-row-reverse font-IranSans px-5"
+        >
+          <div class="flex-col w-2/12 text-end h-[325px] flex justify-around">
+            <p class="mb-2 text-[#878787] text-[18px]">خرید</p>
+            <a href="#" class="itemtext transition-all text-[14px]">بانی مد</a>
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >لباس مردانه</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >لباس زنانه</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >لباس بچگانه</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >بلک فرایدی</a
+            >
+          </div>
+          <div class="flex-col w-2/12 text-end h-[325px] flex justify-around">
+            <p class="mb-2 text-[#878787] text-[18px]">خدمات مشتریان</p>
+            <a href="#" class="itemtext transition-all text-[14px]">ارتباط</a>
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >پرسش های متداول</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >شرایط بازگشت</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >راهنمای خرید</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >سنجش رضایتمندی</a
+            >
+          </div>
+          <div class="flex-col w-2/12 text-end h-[325px] flex justify-around">
+            <p class="mb-2 text-[#878787] text-[18px]">اطلاعات بانی مد</p>
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >فروش محصول</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >درباره ی ما</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >قوانین و مقررات</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >تماس با ما</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >فرصت های شغلی</a
+            >
+            <a href="#" class="itemtext transition-all text-[14px]"
+              >هکاری تجاری</a
+            >
+          </div>
+          <div class="flex-col w-3/12 text-end h-[150px] flex justify-around">
+            <p class="text-black text-[18px]">میزبان صدای گرمتان هستیم</p>
+            <p class="text-black text-[16px] mb-4">هفت روز هفته - 24 ساعته</p>
+            <p class="text-[#878787] text-[16px]">
+              <span
+                class="text-black hover:text-[#00BF6F] font-semibold transition-all"
+                >021-49215</span
+              >
+              :تلفن
+            </p>
+            <p class="text-[#878787] text-[16px]">
+              <span
+                class="text-black hover:text-[#00BF6F] font-semibold transition-all"
+                >10001654</span
+              >
+              :پیامک
+            </p>
+            <p class="text-[#878787] text-[14px]">
+              <span
+                class="text-black hover:text-[#00BF6F] font-semibold transition-all"
+                >customer@banimode.com</span
+              >
+              :ایمیل
+            </p>
+          </div>
+          <div class="flex flex-col w-1/12"></div>
+          <div class="flex flex-col w-3/12">
+            <img
+              src="./Media/banilogo.svg"
+              alt=""
+              class="w-[230px] h-[40px] mb-5 container"
+            />
+            <div
+              class="bg-white border-2 rounded-[35px] border-green-600 transition-all w-8/12 h-[40px] flex items-center justify-center text-green-600 text-[18px] font-IranSans container"
+            >
+              دانلود اپلیکشن
+            </div>
+            <div
+              class="apps flex flex-row w-10/12 xlg:w-8/12 justify-between mt-4 container"
+            >
+              <a href="" class="border-black rounded-[50%] p-3 border-[1px]"
+                ><img src="./Media/aparat.svg" alt="" class="w-[25px] h-[25px]"
+              /></a>
+              <a href="" class="border-black rounded-[50%] p-3 border-[1px]"
+                ><img src="./Media/insta.svg" alt="" class="w-[25px] h-[25px]"
+              /></a>
+              <a href="" class="border-black rounded-[50%] p-3 border-[1px]"
+                ><img
+                  src="./Media/telegram.svg"
+                  alt=""
+                  class="w-[25px] h-[25px]"
+              /></a>
+              <a href="" class="border-black rounded-[50%] p-3 border-[1px]"
+                ><img
+                  src="./Media/twitter.svg"
+                  alt=""
+                  class="w-[25px] h-[25px]"
+              /></a>
+            </div>
+            <div class="w-11/12 flex justify-end">
+              <img src="./Media/banimag.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white mt-7 font-IranSans container w-12/12 flex flex-row-reverse justify-between px-5"
+        >
+          <div class="w-6/12 text-end">
+            <p class="text-[#888888] text-[16px]">
+              مرکز خرید آنلاین پوشاک بانی مد
+            </p>
+            <p class="text-[#888888] text-[14px] mt-4 leading-loose">
+              مرکز خرید آنلاین بانی ‌مد در سال 1393 کار خود را به صورت تخصصی در
+              زمینه پوشاک و سبک زندگی آغاز کرد. در این سال‌ها، بانی مد با همکاری
+              بیشتر از 700 برند، توانسته است تجربه‌ای خوب از خرید آنلاین لباس و
+              پوشاک برای مخاطبان خود رقم بزند. مهم‌ترین رسالت بانی ‌مد بهبود
+              کیفیت سبک زندگی است و رضایت اکثریت مخاطبان این فروشگاه اینترنتی،
+              گواهی بر این ادعاست؛ رضایتی که پشتوانه‌ای استوار برای تحقق دیگر
+              اهداف بلند مدت بانی ‌مد است.
+            </p>
+            <p class="text-[#2FCB8A] text-[14px] mt-3">بیشتر بخوانید</p>
+            <p class="text-[12px] mt-3">
+              .کلیه حقوق این وب سایت متعلق به بانی مد است©
+            </p>
+          </div>
+          <div class="w-6/12">
+            <div class="flex flex-row">
+              <img src="./Media/foot.png" alt="" class="w-[90px] h-[90px]" />
+              <img src="./Media/foot2.png" alt="" class="w-[90px] h-[90px]" />
+              <img src="./Media/foot3.png" alt="" class="w-[90px] h-[90px]" />
+              <img src="./Media/foot.png" alt="" class="w-[90px] h-[90px]" />
+            </div>
+          </div>
+        </div>
+        <p class="text-start font-bold px-3">© Copyright 2023 Banimode.com</p>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/script.js"></script>
+
+        <script>
+          // Burger menus
+          document.addEventListener("DOMContentLoaded", function () {
+            // open
+            const burger = document.querySelectorAll(".navbar-burger");
+            const menu = document.querySelectorAll(".navbar-menu");
+
+            if (burger.length && menu.length) {
+              for (var i = 0; i < burger.length; i++) {
+                burger[i].addEventListener("click", function () {
+                  for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle("hidden");
+                  }
+                });
+              }
+            }
+
+            // close
+            const close = document.querySelectorAll(".navbar-close");
+            const backdrop = document.querySelectorAll(".navbar-backdrop");
+
+            if (close.length) {
+              for (var i = 0; i < close.length; i++) {
+                close[i].addEventListener("click", function () {
+                  for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle("hidden");
+                  }
+                });
+              }
+            }
+
+            if (backdrop.length) {
+              for (var i = 0; i < backdrop.length; i++) {
+                backdrop[i].addEventListener("click", function () {
+                  for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle("hidden");
+                  }
+                });
+              }
+            }
+          });
+        </script>
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+      </div>
+    </body>
+  </body>
+</html>

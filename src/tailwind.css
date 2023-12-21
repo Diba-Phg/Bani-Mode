@@ -1,0 +1,33 @@
+@import url(../custom.css);
+@import "fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    @apply bg-[#eee] text-[14px] text-black m-0 p-0;
+  }
+
+  .swiper {
+    @apply w-full h-full;
+  }
+
+  .swiper-slide {
+    @apply text-center text-[18px] bg-white flex justify-center items-center;
+  }
+
+  .swiper-slide img {
+    @apply block w-full h-full object-cover;
+  }
+
+  .swiper {
+    @apply ml-auto mr-auto;
+  }
+}
